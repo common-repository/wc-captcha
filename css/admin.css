@@ -1,0 +1,22 @@
+/* WC Captcha settings */
+.wc-credits { float: right; width: 280px; background: #fff; margin: 20px 0px 20px 20px; position: relative; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); }
+.wc-credits .inner { padding-left: 10px; padding-right: 10px; }
+.wc-credits .text-center { text-align:center; display: block; margin: 10 auto; }
+.wc-credits h3 { font-size: 14px; line-height: 1.4; margin: 0;  padding: 8px 12px; border-bottom: 1px solid #eee; }
+.wc-credits .wc-link { font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif; font-style:italic; padding-bottom: 10px; margin: 0; }
+.wc-credits .wc-link a { vertical-align: middle; padding: 5px 0 0 4px; }
+.wc-captcha-settings .wc-credits form { min-width: 260px; margin-bottom: 1em; }
+.wc-captcha-settings .wc-credits form input { margin: 0; padding: 0; }
+.wc-captcha-settings {  }
+.wc-captcha-settings hr, .wc-credits hr { border: solid #eee; border-width: 1px 0 0; clear: both; height: 0; }
+.wc-captcha-settings form { min-width: 463px; width: auto; }
+.wc-captcha-settings fieldset span.description { margin-bottom: 8px; margin-top: 4px; display: block; }
+.wc-captcha-settings .ui-button { margin-bottom: 5px; }
+.wc-captcha-settings .description { font-size: 13px; margin-bottom: 8px; }
+.form-table{ clear: none; width: auto; }
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 959px) {
+	.wc-credits { width: 100%; float: none; margin: 20px 0; }
+	.wc-captcha-settings { margin-right: 0; }
+}

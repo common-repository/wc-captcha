@@ -1,0 +1,17 @@
+.wc_captcha-form {
+	display:block;
+	float:none;
+	clear:both;
+	margin-bottom: 16px!important;
+	vertical-align: middle;
+}
+
+.login form .wc_captcha-form span {
+	display: inline-block;
+}
+.wc_captcha-form input[type="text"].wc-input, form.comment-form .wc_captcha-form input[type="text"].wc-input  {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px!important;
+	margin-bottom: 0;
+}
